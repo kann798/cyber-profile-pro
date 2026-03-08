@@ -99,8 +99,8 @@ const HeroSection = () => {
           transition={{ delay: 0.6 }}
           className="text-muted-foreground max-w-2xl mx-auto mb-10 text-lg leading-relaxed"
         >
-          Passionate about securing digital infrastructure and hunting vulnerabilities. 
-          Fresh graduate ready to make an impact in the cybersecurity landscape.
+          Detail-oriented CSE graduate with a strong focus on cyber security, network security, 
+          and vulnerability analysis. Ready to protect systems and networks.
         </motion.p>
 
         {/* Social Links & CTA */}
