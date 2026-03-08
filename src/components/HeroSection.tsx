@@ -55,7 +55,11 @@ const HeroSection = () => {
         >
           <div className="relative">
             <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-2 border-primary/50 animate-glow-pulse">
+<<<<<<< HEAD
               <img src={profileImg} alt="Anonymous - Cybersecurity Professional" className="w-full h-full object-cover" />
+=======
+              <img src={profileImg} alt="Kanna - Cybersecurity Professional" className="w-full h-full object-cover" />
+>>>>>>> bd2e143bd821590961a7e3e847c5a364c5e50646
             </div>
             <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-primary rounded-full border-4 border-background" />
           </div>
@@ -77,9 +81,15 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
+<<<<<<< HEAD
           className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 tracking-tight"
         >
           Hi, I'm <span className="text-gradient neon-glow"> Jaladurgam Karunakar Reddy</span>
+=======
+          className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 tracking-tight"
+        >
+          Hi, I'm <span className="text-gradient neon-glow">Karunakar</span>
+>>>>>>> bd2e143bd821590961a7e3e847c5a364c5e50646
         </motion.h1>
 
         <motion.div
@@ -131,8 +141,13 @@ const HeroSection = () => {
           className="flex items-center justify-center gap-6 mt-8"
         >
           {[
+<<<<<<< HEAD
             { icon: Linkedin, href: "https://linkedin.com/in/j-karuna3721", label: "LinkedIn" },
             { icon: Github, href: "https://github.com/kann798", label: "GitHub" },
+=======
+            { icon: Linkedin, href: "https://linkedin.com/in/karunakar", label: "LinkedIn" },
+            { icon: Github, href: "https://github.com/karunakar", label: "GitHub" },
+>>>>>>> bd2e143bd821590961a7e3e847c5a364c5e50646
             { icon: Mail, href: "mailto:kannareddy341@gmail.com", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
             <a

@@ -7,7 +7,11 @@ const projects = [
     description: "Developed a security-focused tool to detect common web vulnerabilities such as SQL Injection and Cross-Site Scripting (XSS). Implemented automated scanning logic to analyze 10+ web inputs and generated automated reports summarizing detected vulnerabilities and risk levels.",
     tech: ["Python", "Security Analysis", "Automation"],
     icon: ShieldCheck,
+<<<<<<< HEAD
     github: "https://github.com/kann798",
+=======
+    github: "https://github.com/karunakar",
+>>>>>>> bd2e143bd821590961a7e3e847c5a364c5e50646
     demo: "#",
   },
   {
@@ -15,7 +19,11 @@ const projects = [
     description: "Built a password strength analyzer evaluating 4 security factors (length, uppercase, numbers, symbols). Designed an interactive interface providing real-time password strength feedback and security recommendations.",
     tech: ["Python", "Security", "UI Design"],
     icon: Lock,
+<<<<<<< HEAD
     github: "https://github.com/kann798",
+=======
+    github: "https://github.com/karunakar",
+>>>>>>> bd2e143bd821590961a7e3e847c5a364c5e50646
     demo: "#",
   },
 ];

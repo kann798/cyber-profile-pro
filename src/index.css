@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 @layer base {
+<<<<<<< HEAD
   body {
     font-family: 'Space Grotesk', sans-serif;
   }
@@ -15,6 +16,8 @@
 }
 
 @layer base {
+=======
+>>>>>>> bd2e143bd821590961a7e3e847c5a364c5e50646
   :root {
     --background: 220 20% 6%;
     --foreground: 180 10% 90%;

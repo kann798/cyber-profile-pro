@@ -31,7 +31,11 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-2 text-primary font-bold text-lg font-mono">
           <Shield className="w-5 h-5" />
+<<<<<<< HEAD
           Anonymous
+=======
+          Kanna
+>>>>>>> bd2e143bd821590961a7e3e847c5a364c5e50646
         </a>
 
         {/* Desktop nav */}
