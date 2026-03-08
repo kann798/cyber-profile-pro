@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Github, Lock, Wifi, Bug, ShieldCheck } from "lucide-react";
+import { ExternalLink, Github, Lock, ShieldCheck } from "lucide-react";
 
 const projects = [
   {

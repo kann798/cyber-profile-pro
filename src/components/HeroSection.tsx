@@ -131,9 +131,9 @@ const HeroSection = () => {
           className="flex items-center justify-center gap-6 mt-8"
         >
           {[
-            { icon: Linkedin, href: "https://linkedin.com/in/kanna", label: "LinkedIn" },
-            { icon: Github, href: "https://github.com/kanna", label: "GitHub" },
-            { icon: Mail, href: "mailto:kanna@email.com", label: "Email" },
+            { icon: Linkedin, href: "https://linkedin.com/in/karunakar", label: "LinkedIn" },
+            { icon: Github, href: "https://github.com/karunakar", label: "GitHub" },
+            { icon: Mail, href: "mailto:kannareddy341@gmail.com", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}
