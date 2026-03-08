@@ -3,25 +3,18 @@ import { GraduationCap, Calendar } from "lucide-react";
 
 const education = [
   {
-    degree: "B.Tech in Computer Science & Engineering",
-    institution: "Your College Name",
-    year: "2020 – 2024",
-    cgpa: "8.0 CGPA",
-    description: "Specialized in cybersecurity and networking fundamentals.",
+    degree: "B.Tech - CSE (Cyber Security)",
+    institution: "Sri Venkateswara College of Engineering and Technology, Chittoor",
+    year: "2022 – 2026",
+    cgpa: "7.70 CGPA",
+    description: "Specializing in cybersecurity, network security, and vulnerability analysis.",
   },
   {
-    degree: "Higher Secondary (12th)",
-    institution: "Your School Name",
-    year: "2018 – 2020",
-    cgpa: "85%",
-    description: "Science stream with Computer Science.",
-  },
-  {
-    degree: "Secondary School (10th)",
-    institution: "Your School Name",
-    year: "2018",
-    cgpa: "90%",
-    description: "Foundation in mathematics and science.",
+    degree: "Intermediate - MPC",
+    institution: "Sri Chaitanya Junior College, Kurnool",
+    year: "2020 – 2022",
+    cgpa: "83%",
+    description: "Mathematics, Physics, and Chemistry stream.",
   },
 ];
 

@@ -1,37 +1,21 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Github, Lock, Wifi, Bug, ShieldCheck } from "lucide-react";
+import { ExternalLink, Github, Lock, ShieldCheck } from "lucide-react";
 
 const projects = [
   {
-    title: "Network Vulnerability Scanner",
-    description: "Automated tool for scanning networks, identifying open ports, and detecting potential security vulnerabilities using Python and Nmap.",
-    tech: ["Python", "Nmap", "Scapy"],
-    icon: Wifi,
-    github: "https://github.com/kanna",
-    demo: "#",
-  },
-  {
-    title: "Keylogger Detection System",
-    description: "Real-time monitoring system to detect and alert keylogger activities on Windows systems using behavioral analysis.",
-    tech: ["Python", "Windows API", "Machine Learning"],
-    icon: Bug,
-    github: "https://github.com/kanna",
-    demo: "#",
-  },
-  {
-    title: "Packet Sniffer & Analyzer",
-    description: "Custom packet sniffing tool that captures, filters, and analyzes network traffic for anomalies and suspicious patterns.",
-    tech: ["Python", "Scapy", "Wireshark"],
+    title: "AI-Based Web Application Vulnerability Scanner",
+    description: "Developed a security-focused tool to detect common web vulnerabilities such as SQL Injection and Cross-Site Scripting (XSS). Implemented automated scanning logic to analyze 10+ web inputs and generated automated reports summarizing detected vulnerabilities and risk levels.",
+    tech: ["Python", "Security Analysis", "Automation"],
     icon: ShieldCheck,
-    github: "https://github.com/kanna",
+    github: "https://github.com/karunakar",
     demo: "#",
   },
   {
     title: "Password Strength Analyzer",
-    description: "Web-based tool that evaluates password strength using entropy calculation, dictionary attacks, and common pattern detection.",
-    tech: ["JavaScript", "HTML/CSS", "Regex"],
+    description: "Built a password strength analyzer evaluating 4 security factors (length, uppercase, numbers, symbols). Designed an interactive interface providing real-time password strength feedback and security recommendations.",
+    tech: ["Python", "Security", "UI Design"],
     icon: Lock,
-    github: "https://github.com/kanna",
+    github: "https://github.com/karunakar",
     demo: "#",
   },
 ];

@@ -2,41 +2,36 @@ import { motion } from "framer-motion";
 
 const skillCategories = [
   {
-    title: "Cybersecurity",
-    skills: [
-      { name: "Penetration Testing", level: 75 },
-      { name: "Vulnerability Assessment", level: 80 },
-      { name: "Network Security", level: 85 },
-      { name: "Incident Response", level: 70 },
-      { name: "SIEM Tools", level: 65 },
-    ],
-  },
-  {
-    title: "Networking",
-    skills: [
-      { name: "TCP/IP & OSI Model", level: 90 },
-      { name: "Firewalls & IDS/IPS", level: 80 },
-      { name: "DNS / DHCP / VPN", level: 85 },
-      { name: "Wireshark", level: 80 },
-    ],
-  },
-  {
-    title: "Programming",
+    title: "Programming & Databases",
     skills: [
       { name: "Python", level: 75 },
-      { name: "Bash Scripting", level: 70 },
-      { name: "SQL", level: 72 },
-      { name: "HTML / CSS / JS", level: 65 },
+      { name: "MySQL", level: 70 },
     ],
   },
   {
-    title: "Tools & Platforms",
+    title: "Cybersecurity & Network Tools",
     skills: [
-      { name: "Kali Linux", level: 85 },
-      { name: "Nmap / Metasploit", level: 80 },
+      { name: "Nmap", level: 80 },
       { name: "Burp Suite", level: 75 },
-      { name: "Linux Administration", level: 80 },
-      { name: "Git & GitHub", level: 70 },
+      { name: "Cisco Packet Tracer", level: 78 },
+      { name: "Kali Linux", level: 85 },
+    ],
+  },
+  {
+    title: "Development Tools",
+    skills: [
+      { name: "Git & GitHub", level: 75 },
+      { name: "VS Code", level: 80 },
+      { name: "MS Office", level: 85 },
+    ],
+  },
+  {
+    title: "Operating Systems & Soft Skills",
+    skills: [
+      { name: "Windows", level: 85 },
+      { name: "Linux", level: 80 },
+      { name: "Team Collaboration", level: 85 },
+      { name: "Critical Thinking", level: 80 },
     ],
   },
 ];

@@ -27,19 +27,19 @@ const AboutSection = () => {
           >
             <div className="glass-card p-8 border-glow h-full">
               <p className="text-foreground/90 leading-relaxed text-lg mb-6">
-                I am a motivated and detail-oriented cybersecurity fresher with a strong foundation 
-                in network security, ethical hacking, and security analysis. My passion lies in 
-                identifying vulnerabilities and strengthening digital defenses.
+                I am a detail-oriented Computer Science Engineering graduate with a strong focus on 
+                cyber security, network security, and vulnerability analysis. I have hands-on experience 
+                through academic projects involving packet analysis, network traffic monitoring, and 
+                basic security assessments.
               </p>
               <p className="text-foreground/90 leading-relaxed text-lg mb-6">
-                With hands-on experience in penetration testing tools, network monitoring, and 
-                security frameworks, I am eager to contribute to organizations seeking to enhance 
-                their security posture. I believe in continuous learning and staying updated with 
-                the latest threat landscapes.
+                I completed a 2-month cybersecurity internship at ExcelR covering network security 
+                and vulnerability assessment. I'm proficient in tools like Nmap, Burp Suite, 
+                Cisco Packet Tracer, and Kali Linux.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Currently seeking opportunities to apply my skills in a professional cybersecurity 
-                role where I can grow, learn, and make a meaningful contribution to digital security.
+                Seeking an entry-level cybersecurity role to apply my security knowledge and develop 
+                practical skills in protecting systems and networks.
               </p>
             </div>
           </motion.div>

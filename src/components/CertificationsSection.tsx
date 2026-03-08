@@ -2,11 +2,9 @@ import { motion } from "framer-motion";
 import { Award, ExternalLink } from "lucide-react";
 
 const certifications = [
-  { name: "Certified Ethical Hacker (CEH)", issuer: "EC-Council", year: "2024" },
-  { name: "CompTIA Security+", issuer: "CompTIA", year: "2024" },
-  { name: "Google Cybersecurity Certificate", issuer: "Google / Coursera", year: "2023" },
-  { name: "Cisco CCNA", issuer: "Cisco", year: "2023" },
-  { name: "Introduction to Cybersecurity", issuer: "Cisco Networking Academy", year: "2023" },
+  { name: "Programming Concepts in Python", issuer: "Infosys Springboard", year: "2024" },
+  { name: "Linux Administration", issuer: "L&T EduTech", year: "2024" },
+  { name: "Secure Networking", issuer: "L&T EduTech", year: "2024" },
 ];
 
 const CertificationsSection = () => {

@@ -44,8 +44,8 @@ const ContactSection = () => {
             </p>
 
             {[
-              { icon: Mail, text: "kanna@email.com" },
-              { icon: Phone, text: "+91 XXXXX XXXXX" },
+              { icon: Mail, text: "kannareddy341@gmail.com" },
+              { icon: Phone, text: "+91 8309947802" },
               { icon: MapPin, text: "India" },
             ].map(({ icon: Icon, text }) => (
               <div key={text} className="flex items-center gap-4 text-muted-foreground">

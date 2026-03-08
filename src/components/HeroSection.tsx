@@ -79,7 +79,7 @@ const HeroSection = () => {
           transition={{ delay: 0.4 }}
           className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 tracking-tight"
         >
-          Hi, I'm <span className="text-gradient neon-glow">Kanna</span>
+          Hi, I'm <span className="text-gradient neon-glow">Karunakar</span>
         </motion.h1>
 
         <motion.div
@@ -99,8 +99,8 @@ const HeroSection = () => {
           transition={{ delay: 0.6 }}
           className="text-muted-foreground max-w-2xl mx-auto mb-10 text-lg leading-relaxed"
         >
-          Passionate about securing digital infrastructure and hunting vulnerabilities. 
-          Fresh graduate ready to make an impact in the cybersecurity landscape.
+          Detail-oriented CSE graduate with a strong focus on cyber security, network security, 
+          and vulnerability analysis. Ready to protect systems and networks.
         </motion.p>
 
         {/* Social Links & CTA */}
@@ -131,9 +131,9 @@ const HeroSection = () => {
           className="flex items-center justify-center gap-6 mt-8"
         >
           {[
-            { icon: Linkedin, href: "https://linkedin.com/in/kanna", label: "LinkedIn" },
-            { icon: Github, href: "https://github.com/kanna", label: "GitHub" },
-            { icon: Mail, href: "mailto:kanna@email.com", label: "Email" },
+            { icon: Linkedin, href: "https://linkedin.com/in/karunakar", label: "LinkedIn" },
+            { icon: Github, href: "https://github.com/karunakar", label: "GitHub" },
+            { icon: Mail, href: "mailto:kannareddy341@gmail.com", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}
